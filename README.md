@@ -25,7 +25,7 @@ This repository talks about tools and resources required to publish a github pag
 
 # CONTRIBUTOR: 
 
-   NAME: Avishek Khadka
+   Name: Avishek Khadka
    
    Major: Computer Science and Info Systems  
    
