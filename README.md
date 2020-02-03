@@ -10,14 +10,14 @@
 This repository talks about tools and resources required to publish a github page and links to various resources that can be used to publish a page through github
 
 ## RECOMENDED TOOLS
-- [Github](https://github.com)
-- [Github Desktop](https://desktop.github.com)
-- [Visual Code Studio](https://code.visualstudio.com)
+1) [Github](https://github.com)
+2) [Github Desktop](https://desktop.github.com)
+3) [Visual Code Studio](https://code.visualstudio.com)
 
 ## RECOMMENDED RESOURCES 
-- [Markdown Language](https://www.markdownguide.org)
-- [Github Help](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-- [Google](https://www.google.com/?client=safari)
+1) [Markdown Language](https://www.markdownguide.org)
+2) [Github Help](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+3) [Google](https://www.google.com/?client=safari)
 
 # CONTRIBUTOR: 
 
