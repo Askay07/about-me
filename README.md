@@ -11,12 +11,16 @@ This repository talks about tools and resources required to publish a github pag
 
 ## RECOMENDED TOOLS
 1) [Github](https://github.com)
+
 2) [Github Desktop](https://desktop.github.com)
+
 3) [Visual Code Studio](https://code.visualstudio.com)
 
 ## RECOMMENDED RESOURCES 
 1) [Markdown Language](https://www.markdownguide.org)
+
 2) [Github Help](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
 3) [Google](https://www.google.com/?client=safari)
 
 # CONTRIBUTOR: 
