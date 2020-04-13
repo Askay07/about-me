@@ -2,3 +2,16 @@ body{
     background-color #E1F2F7;
     font-size: large;
 }
+
+.column {
+    float: left;
+    width: 35%;
+    padding: 4px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
