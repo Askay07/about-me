@@ -4,12 +4,12 @@ h1{
     
 }
 h2{
-    text-align: center;
+    
     color:red
 }
 
 h3{
-    text-align: center;
+   
 }
 
 body{
@@ -18,7 +18,6 @@ body{
     color:red
     font-size: large;
 }
-
 
 .column {
     float: left;
