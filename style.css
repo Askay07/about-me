@@ -1,3 +1,12 @@
+
+h1{
+    color: yellow;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
 body{
     background-color #E1F2F7;
     font-size: large;
