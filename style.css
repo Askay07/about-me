@@ -27,7 +27,7 @@ body{
 .column {
     float: left;
     width: 33.3%;
-    padding: 4px;
+    padding: 5px;
   }
   
   /* Clear floats after image containers */
