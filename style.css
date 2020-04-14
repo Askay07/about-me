@@ -9,6 +9,7 @@ h2{
 }
 
 h3{
+    color:red;
    
 }
 
@@ -21,8 +22,8 @@ body{
 
 .column {
     float: left;
-    width: 35%;
-    padding: 4px;
+    width: 100%;
+    padding: 10px;
   }
   
   /* Clear floats after image containers */
