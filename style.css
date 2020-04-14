@@ -17,6 +17,10 @@ h3{
     font-family: "Comic Sans MS", cursive, sans-serif;
   }
 
+  article{
+    text-align: center;
+}
+
 body{
     background-color #E1F2F7;
     
