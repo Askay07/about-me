@@ -49,28 +49,27 @@
 <head>
 
   <script language="JavaScript">
-    <!--
-    function euroConverter(){
-    document.converter.dollar.value = document.converter.euro.value * 1.470
-    document.converter.pound.value = document.converter.euro.value * 0.717
-    document.converter.yen.value = document.converter.euro.value * 165.192
+    
+    function nepaliConverter(){
+    document.converter.indian.value = document.converter.nepali.value * 1.6
+    document.converter.dollar.value = document.converter.nepali.value * 123.05
+    document.converter.euro.value = document.converter.nepali.value * 1.09
+    }
+    function indianConverter(){
+    document.converter.nepali.value = document.converter.indian.value * 0.63
+    document.converter.dollar.value = document.converter.indian.value * 76.90
+    document.converter.euro.value = document.converter.indian.value * 83.66
     }
     function dollarConverter(){
-    document.converter.euro.value = document.converter.dollar.value * 0.680
-    document.converter.pound.value = document.converter.dollar.value * 0.488
-    document.converter.yen.value = document.converter.dollar.value * 112.36
+    document.converter.indian.value = document.converter.dollar.value * 0.013
+    document.converter.nepali.value = document.converter.dollar.value * 0.0081
+    document.converter.pound.value = document.converter.dollar.value * 1.25
     }
-    function poundConverter(){
-    document.converter.dollar.value = document.converter.pound.value * 2.049
-    document.converter.euro.value = document.converter.pound.value * 1.394
-    document.converter.yen.value = document.converter.pound.value * 230.27
+    function euroConverter(){
+    document.converter.indian.value = document.converter.euro.value * 0.0012
+    document.converter.dollar.value = document.converter.euro.value * 0.92
+    document.converter.nepali.value = document.converter.euro.value * 0.0075
     }
-    function yenConverter(){
-    document.converter.dollar.value = document.converter.yen.value * 0.0089
-    document.converter.pound.value = document.converter.yen.value * 0.00434
-    document.converter.euro.value = document.converter.yen.value * 0.00605
-    }
-    //-->
     </script>
 
 </head>
@@ -81,19 +80,19 @@
   <form name="converter">
     <table border="0">
     <tr>
+    <td>Nepali: </td><td><input type="text" name="nepali" onChange="nepaliConverter()" /></td>
+    </tr>
+    <tr>
+    <td>Indian: </td><td><input type="text" name="indian" onChange="indainConverter()" /></td>
+    </tr>
+    <tr>
+    <td>Dollar:</td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+    </tr>
+    <tr>
     <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
     </tr>
     <tr>
-    <td>US Dollar: </td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
-    </tr>
-    <tr>
-    <td>British Pound:</td><td><input type="text" name="pound" onChange="poundConverter()" /></td>
-    </tr>
-    <tr>
-    <td>Japanese Yen: </td><td><input type="text" name="yen" onChange="yenConverter()" /></td>
-    </tr>
-    <tr>
-    <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
+    <td colspan="3" align="center"><input type="button" value="Convert!" /></td>
     </tr>
     </table>
     </form>
