@@ -1,22 +1,19 @@
 
-
-
-
 h1{ 
-    font-family:  "";
-    color: white
+    font-family: -webkit-pictograph ;
+    color: red
     font-weight: 400;
-    margin: 10px 0;
+    margin: 59px;
 }
 
 body {
-    background-color: black;
+    background-color: bisque;
   }
 
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #aaa; 
     border-radius: 4px; 
     box-sizing: border-box; 
     margin-top: 6px; 
@@ -25,7 +22,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: red
+    background-color: azure
     color: white;
     padding: 12px 20px;
     border: none;
@@ -34,13 +31,12 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: red;
+    background-color: beige;
   }
 
   .container {
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #f2f2f2;
     padding: 20px;
   }
-
 
