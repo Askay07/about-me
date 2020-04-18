@@ -52,21 +52,12 @@
     document.converter.dollar.value = document.converter.nepali.value / 123.05
     document.converter.euro.value = document.converter.nepali.value / 133.12
     }
-    function indianConverter(){
-    document.converter.nepali.value = document.converter.indian.value * 1.6
-    document.converter.dollar.value = document.converter.indian.value / 76.90
-    document.converter.euro.value = document.converter.indian.value / 83.66
-    }
+
     function dollarConverter(){
     document.converter.euro.value = document.converter.dollar.value / 1.09
     document.converter.nepali.value = document.converter.dollar.value / 0.0081
     document.converter.indian.value = document.converter.dollar.value / 0.013
-    }
-    function euroConverter(){
-    document.converter.nepali.value = document.converter.euro.value * 133.6
-    document.converter.indian.value = document.converter.euro.value * 83.19
-    document.converter.dollar.value = document.converter.euro.value * 1.09
-    }
+
     </script>
 
 </head>
@@ -80,14 +71,9 @@
     <tr>
     <td>Nepali: </td><td><input type="text" name="nepali" id = a1 onChange="nepaliConverter()" /></td>
     </tr>
-    <tr>
-    <td>Indian: </td><td><input type="text" name="indian" id = a2 onChange="indianConverter()" /></td>
-    </tr>
+
     <tr>
     <td>Dollar:</td><td><input type="text" name="dollar" id = a3 onChange="dollarConverter()" /></td>
-    </tr>
-    <tr>
-    <td>Euro: </td><td><input type="text" name="euro" id = a4 onChange="euroConverter()" /></td>
     </tr>
     <tr>
     <td colspan="3" align="center"><input type="button" value="Convert!" /></td>
@@ -96,6 +82,7 @@
     </form>
   </main>
   <p id= "convert"> Lets see the results of your conversion </p>
+  <label id="b1"><b></b>  NPR = <b> 0 </b> $ </label>
 </body>
 
 <script>
