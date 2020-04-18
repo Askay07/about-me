@@ -77,13 +77,16 @@
     </table>
     </form>
   </main>
+  <main>
   <p id= "convert"> Lets see the results of your conversion </p>
   <label id="b1"> <b> </b>  NPR = <b> 0 </b> $ </label>
-</body>
+</main>
 
 <script>
   function convertN() {
       var nep = document.getElementById("a1").value;
-      document.getElementById("b1").innerHTML = "<b>" + nep + "</b> " + " NPR = " + "<b> " + nepaliConverter() + " </b>" + " $ "
+      var dolla = document.getElementById("a1").value;
+      document.getElementById("b1").innerHTML = "<b>" + nep + "</b> " + " NPR = " + "<b> " + dolla + " </b>" + " $ "
   }
 </script>
+</body>
