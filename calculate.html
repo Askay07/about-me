@@ -47,17 +47,14 @@
 
   <script language="JavaScript">
     
-    function nepaliConverter(){
-    document.converter.indian.value = document.converter.nepali.value / 1.6
+    function nepaliConverter(){  
     document.converter.dollar.value = document.converter.nepali.value / 123.05
-    document.converter.euro.value = document.converter.nepali.value / 133.12
+    
     }
 
     function dollarConverter(){
-    document.converter.euro.value = document.converter.dollar.value / 1.09
     document.converter.nepali.value = document.converter.dollar.value / 0.0081
-    document.converter.indian.value = document.converter.dollar.value / 0.013
-
+    }
     </script>
 
 </head>
@@ -69,11 +66,11 @@
   <form name="converter">
     <table border="0">
     <tr>
-    <td>Nepali: </td><td><input type="text" name="nepali" id = a1 onChange="nepaliConverter()" /></td>
+    <td>Nepali: </td><td><input type="text" name="nepali" onChange="nepaliConverter()" /></td>
     </tr>
 
     <tr>
-    <td>Dollar:</td><td><input type="text" name="dollar" id = a3 onChange="dollarConverter()" /></td>
+    <td>Dollar:</td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
     </tr>
     <tr>
     <td colspan="3" align="center"><input type="button" value="Convert!" /></td>
@@ -88,7 +85,7 @@
 <script>
   function convertN() {
       var nep = document.getElementById("a1").value;
-      document.getElementById("b1").innerHTML = "<b>" + nepali + "</b> " + " NPR = " + "<b> " + document.converter.indian.value + " </b>" + " INR "
+      document.getElementById("b1").innerHTML = "<b>" + nepali + "</b> " + " NPR = " + "<b> " + nepaliConverter() + " </b>" + " $ "
   }
 
 </script>
