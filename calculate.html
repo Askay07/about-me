@@ -78,16 +78,16 @@
   <form name="converter">
     <table border="0">
     <tr>
-    <td>Nepali: </td><td><input type="text" name="nepali" onChange="nepaliConverter()" /></td>
+    <td>Nepali: </td><td><input type="text" name="nepali" id = a1 onChange="nepaliConverter()" /></td>
     </tr>
     <tr>
-    <td>Indian: </td><td><input type="text" name="indian" onChange="indianConverter()" /></td>
+    <td>Indian: </td><td><input type="text" name="indian" id = a2 onChange="indianConverter()" /></td>
     </tr>
     <tr>
-    <td>Dollar:</td><td><input type="text" name="dollar" onChange="dollarConverter()" /></td>
+    <td>Dollar:</td><td><input type="text" name="dollar" id = a3 onChange="dollarConverter()" /></td>
     </tr>
     <tr>
-    <td>Euro: </td><td><input type="text" name="euro" onChange="euroConverter()" /></td>
+    <td>Euro: </td><td><input type="text" name="euro" id = a4 onChange="euroConverter()" /></td>
     </tr>
     <tr>
     <td colspan="3" align="center"><input type="button" value="Convert!" /></td>
@@ -97,3 +97,11 @@
   </main>
   <p id= "convert"> Lets see the results of your conversion </p>
 </body>
+
+<script>
+  function convertN() {
+      var nep = document.getElementById("a1").value;
+      document.getElementById("b1").innerHTML = "<b>" + nepali + "</b> " + " NPR = " + "<b> " + document.converter.indian.value + " </b>" + " INR "
+  }
+
+</script>
