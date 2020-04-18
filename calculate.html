@@ -55,12 +55,6 @@
     function dollarConverter(){
     document.converter.nepali.value = document.converter.dollar.value / 0.0081
     }
-
-    function print(){
-      var output = "NPR" + document.getElementById("a1").value + " = " + " $"
-            document.getElementById("a2").innerHTML
-
-    }
     </script>
 
 </head>
@@ -72,21 +66,15 @@
   <form name="converter">
     <table border="0">
     <tr>
-    <td>Nepali: </td><td><input type="text" name="nepali" id="a1" onChange="nepaliConverter() , print()"  /></td> 
+    <td>Nepali: </td><td><input type="text" name="nepali" id="a1" onChange="nepaliConverter()"  /></td> <td</td>
     </tr>
     <tr>
-    <td>Dollar:</td><td><input type="text" name="dollar" id="a2" onChange="dollarConverter() , print" /></td> 
+    <td>Dollar:</td><td><input type="text" name="dollar" id="a2" onChange="dollarConverter()" /></td>
     </tr>
     <tr>
     <td colspan="2" align="center"><input type="button" value="Convert!" /></td>
     </tr>
     </table>
     </form>
-  </main>
-  <main>
-  <p id= "convert"> Lets see the results of your conversion </p>
-  
-
-  <td id="b1"> <b> </b>  NPR = <b>  </b> $ </td>
 </main>
 </body>
