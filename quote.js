@@ -57,7 +57,7 @@ $(document).ready(function(){
     $('#quoteButton').click(function(evt){
         
         var quote = $('#quoteContainer p').text();
-        var quoteGenius = $('#quoteGenius').text();
+       
        
         evt.preventDefault();
         
@@ -72,7 +72,7 @@ $(document).ready(function(){
  
   quoteContainer.fadeOut(timeAnimation, function(){
     quoteContainer.html('');
-            quoteContainer.append('<p>'+newQuoteText+'</p>'+'<p id="RanQuote">'+'-'+newQuoteGenius+'</p>');
+            quoteContainer.append('<p>'+newQuoteText+'</p>'+'<p id="RanQuote">'+'-'+'</p>');
 
     quoteContainer.fadeIn(timeAnimation);
   });  
