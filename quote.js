@@ -54,7 +54,7 @@ $(document).ready(function(){
 ];
     
 
-    $('#quoteButton').click(function(evt){
+    $('#RanQuote').click(function(evt){
         
         var quote = $('#quoteContainer p').text();
        
