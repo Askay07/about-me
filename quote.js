@@ -72,7 +72,7 @@ $(document).ready(function(){
  
   quoteContainer.fadeOut(timeAnimation, function(){
     quoteContainer.html('');
-            quoteContainer.append('<p>'+newQuoteText+'</p>'+'<p id="RanQuote">'+'-'+'</p>');
+            quoteContainer.append('<p>'+newQuoteText);
 
     quoteContainer.fadeIn(timeAnimation);
   });  
