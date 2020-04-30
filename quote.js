@@ -70,16 +70,16 @@ $(document).ready(function(){
   var timeAnimation = 500;
   var quoteContainer = $('#quoteContainer');
  
-  quoteContainer.fadeOut(timeAnimation, function(){
+
     quoteContainer.html('');
             quoteContainer.append('<p>'+newQuoteText);
 
-    quoteContainer.fadeIn(timeAnimation);
-  });  
+    
+  };  
         
        
   break;
-    };
+    
 
 });
     
