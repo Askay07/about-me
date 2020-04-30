@@ -67,7 +67,7 @@ $(document).ready(function(){
         for(i=0;i<=sourceLength;i+=1){
         var newQuoteText = quoteSource[randomNumber].quote;
         
-  var timeAnimation = 500;
+
   var quoteContainer = $('#quoteContainer');
  
 
