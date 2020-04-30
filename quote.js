@@ -72,7 +72,7 @@ $(document).ready(function(){
  
 
     quoteContainer.html('');
-            quoteContainer.append('<p>'+newQuoteText);
+            quoteContainer.append(newQuoteText);
 
     
   };  
